@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: neurodebian:bionic-non-free-ANTs-2.3.4
+  IMAGE_NAME: neurodebian_bionic-non-free_ants-2.3.4
 
 jobs:
   # Run tests.
