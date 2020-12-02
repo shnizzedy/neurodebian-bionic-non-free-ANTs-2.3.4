@@ -6,6 +6,11 @@ on:
     branches:
       - main
 
+    # Publish on changes to Dockerfile
+    paths:
+      - 'Dockerfile'
+      - '.github/workflows/docker-publish.yml'
+
     # Publish `v1.2.3` tags as releases.
     tags:
       - v*
